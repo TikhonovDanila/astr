@@ -1,12 +1,10 @@
 ---
-
 import Layout from '../layouts/Layout.astro';
-
+import '../styles/global.css';
 ---
 
 <Layout>
 	<body>
-
         <h1>Обо мне</h1>
         <h2>... и моем новом сайте на Astro!</h2>
 
@@ -15,3 +13,9 @@ import Layout from '../layouts/Layout.astro';
         <p>Сайт будет обновляться по мере прохождения учебника, так что заходите сюда снова и следите за моим прогрессом!</p>
     </body>
 </Layout>
+   <style>
+      h1 {
+        color: purple;
+        font-size: 4rem;
+      }
+    </style>
